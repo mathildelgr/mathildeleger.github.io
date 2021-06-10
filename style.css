@@ -51,7 +51,14 @@ h2, h3, h4 {
   color: white;
 }
 
-p, ul, ol {
+p, {
+  font-size: 26px;
+  text-align: center ;
+  color : white ;
+}
+
+
+ul, ol {
 	font-size: 20px;
 	text-align: left ;
   color : white ;
@@ -60,7 +67,7 @@ p, ul, ol {
 
 h5 {
   font-size: 32px
-  text-align: center ;
+  text-align: left ;
  } 
 
 h6 {
@@ -100,5 +107,11 @@ h6 {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.cadre2{
+  border: solid 2px white;
+  border-radius: 1px;
+  box-shadow: 2px 2px 2px 2px white;
 }
 
